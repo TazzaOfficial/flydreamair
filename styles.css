@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Great+Vibes&family=Poppins:wght@300;500&display=swap');
+
+body {
+    font-family: changa;
+    font-weight: 600;
+    margin: 0;
+    background-image: url(hero.jpg);
+    background-size: 100%;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+img {
+    height: 2.7rem;
+    width: 2.7rem;
+}
+
+ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+.center li {
+    border: 0.5rem solid;
+    border-color: #ffffff;
+    border-width: 0 0 0.5rem 0;
+    transition: 0.7s;
+}
+
+.center li:hover {
+    border-color: #00CCFF;
+    transition: 0.3s;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    color: rgb(0, 0, 0);
+    height: auto;
+    margin: 1.2rem 2rem 0 2rem;
+    padding: 0;
+    transition: 0.3s;
+    width: 12rem;
+}
+
+.hero {
+    height: 50vh;    
+}
+
+.booking-section {
+    height: 50vh;
+}
+
+.logo {
+    color: #00CCFF;
+    font-size: 2rem;
+    margin: 0;
+    margin-left: 1rem;
+    padding: 0;
+    margin-left: 4rem;
+}
+
+.logo a {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 100%;
+    scale: 1.3;
+}
+
+.cart, .log, .account {
+    margin-right: 1rem;
+}
